@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name = "HomeScene" extends = "Scene" >
+<script type="text/brightscript" uri="pkg:/components/HomeScene.brs"/>
+<children>
+	<Poster
+	  id="background"
+	  uri="pkg:/images/background.jpg"
+	  width="1920"
+	  height="1080"
+	  translation="[0, 0]" 
+	/>
+	
+    <Group >
+		<layoutTop 
+			id = "layoutTop"
+			translation = "[0, 0]" 
+		/>
+			
+		 <Button
+			id = "button"
+			text = "Start Another Channel"
+			translation="[750, 860]"
+			showFocusFootprint = "true"
+			focusedIconUri = "pkg:/images/button-img-show-black.png"
+			focusFootprintBitmapUri = "pkg:/images/button-unfocused.png"
+			iconUri = "pkg:/images/button-img-show-white.png"
+			/>
+    </Group>
+
+  </children>
+</component>
